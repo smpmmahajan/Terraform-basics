@@ -10,3 +10,9 @@ variable "a" {
 output "op" {
   value = var.a # This is how we access a variable
 }
+### Printing variable values from a file 
+
+variable "state_rank" {}
+output "rank" {
+  value = var.state_rank
+}
